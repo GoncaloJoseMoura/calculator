@@ -60,13 +60,15 @@ div#calculation {
     padding: 8px 18px;
     height: 42px;
     width: 260px;
+    overflow-x: scroll;
+    scrollbar-width: none;
 }
 div p#calculation {
     height: 21px;
     width: 260px;
     margin: 0;
     text-align: start;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 div p#result {
@@ -74,7 +76,7 @@ div p#result {
     width: 260px;
     margin: 0;
     text-align: end;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .pad {
