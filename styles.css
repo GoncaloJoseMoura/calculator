@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    }
+
+header, footer {
+    background-color: #d4d4d4;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+}
+
+img {
+    height: 35px;
+    width: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#outside_box {
+    align-self: center;
+    height: 400px;
+    width: 300px;
+    padding: 12px;
+    border: 4px solid #939393;
+    border-radius: 7px;
+    background-color: #e3b361;
+}
+
+div:has(#calculation) {
+    display: flex;
+    flex-direction: column;
+}
+
+div#calculation {
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px 18px;
+    height: 42px;
+    width: 260px;
+}
+div p#calculation {
+    height: 21px;
+    width: 260px;
+    margin: 0;
+    text-align: start;
+    font-size: 20px;
+}
+
+div p#result {
+    height: 21px;
+    width: 260px;
+    margin: 0;
+    text-align: end;
+    font-size: 20px;
+}
+
+.pad {
+    display: flex;
+    padding: 10px 0px;
+    flex: 1 1 auto;
+}
+
+.pad .symbols {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+}
+
+div.numbers {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+div.numbers div {
+    display: flex;
+    flex: 1 1 100%;
+    align-self: stretch;
+    justify-content: space-around;
+}
+
+button {
+    flex-grow: 1;
+    margin: 2px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: #f0d19d;
+}
